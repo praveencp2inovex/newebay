@@ -1,0 +1,76 @@
+@media only screen and (max-width:800px){
+
+	/*eBay Head*/
+	#gh{min-width:0;margin:0;}
+	#gh-cart{margin-right:0;}
+	#gh-cart .gh-eb-li-a{padding-right:0;}
+
+	/*eBay Bread crumb*/
+	table.tb_v4bc tbody,table.tb_v4bc tr,table.tb_v4bc td{display:inline-block;vertical-align:middle;text-align:center;}
+	table.tb_v4bc div.v4sem{margin:0;}
+	.stBadge img{max-width:100%;}
+	.cmpb{width:100%;}
+	div.cmpb{width:auto;}
+	.pagecontainer > table:nth-of-type(2) tr:first-child > td > table:nth-child(2){width:100%!important;margin-left:auto;margin-right:auto;}
+	table.tb_v4bc ~ table{margin-bottom:180px;}
+	table.tb_v4bc,.stBadge,#glbfooter,#gh,.gh-banner-active #gh{width:auto;}
+	.inovex-colLeft,#LeftPanel{width:0!important;height:auto;}
+
+	/* Hides Left & Right Columns */
+	#LeftPanel table.v4acpcont,.inovex-colLeft > *,#LeftPanel ~ td[width="13"],.bpmsg span.lnk{display:none;}
+	#LeftPanel #inovex-foot{display:block;}
+	.stBadge{min-width:0;padding:0;}
+	td#CentralArea table.r3,.v4snexp,#LeftPanel ~ td[valign="top"] > table{width:100%;padding-right:0;}
+	td#CentralArea{position:relative;}
+	.cstmContent{margin-bottom:15px;}
+	td#CentralArea .v4stabl{right:15px;}
+
+	td#LeftPanel{ width:0!important; }
+
+	#LeftPanel .brand-scroll{ display: none; }
+}
+@media only screen and (max-width:767px){
+	.stBadge{min-width:0;}
+	#glbfooter{padding:15px 0;text-align:center;}
+	.stBadge-midContent{padding:15px;}
+	.stBadge-midContent table,.stBadge-midContent table tbody,.stBadge-midContent table tr,.stBadge-midContent table td{display:block;text-align:center;padding:2px 0;}
+	.footerBGPost .gf-img{width:100%;}
+	td#CentralArea div.v4stabl,td#CentralArea div.cmpb,.sifExp .expHeader,.lview{display:none;}
+	table.tb_v4bc ~ table{margin-bottom:220px;}
+	#topSearch { width: 100%; }
+}
+@media only screen and (max-width:640px){
+	#gh{min-width:0;}
+	.gh-tbl{width:250px;margin:0 auto;}
+	#gh #gh-title{float:right;}
+
+	/*Grid Gallery*/
+	td#CentralArea .grid{display:block;}
+	td#CentralArea .grid tbody,td#CentralArea .grid tr,td#CentralArea .grid td{display:block;}
+	td#CentralArea div.rs_box{border:0;}
+	td#CentralArea .grid td.gallery{width:auto;margin:0 15px;}
+	td#CentralArea table.gallery{width:100%!important;height:auto;margin:15px 0 0;text-align:center;padding:5%;}
+	td#CentralArea table.gallery td.picture{height:auto;}
+	table.gallery div.subtitle,table.gallery div.ttl{margin:8px 0;text-align:center;}
+	td#CentralArea .grid{margin:0;}
+	td#CentralArea div.rs-pview{padding:0;}
+	table.gallery td.basics{width:auto;}
+	table.gallery .g-b{margin:8px 0;display:block;}
+	table.gallery .mi{display:inline-block;margin:5px auto;}
+	div.clr span.label{float:none;padding-right:8px;}
+	table.gallery table.fixed{display:block;}
+	table.gallery table.fixed div.time2{padding:0;}
+	td#CentralArea .ctrlbr{display:none;}
+	td#CentralArea .grid td.gallery{padding-right:0;}
+
+	/*Pagination*/
+	td#CentralArea div.dynpg table.pgbc .l,td#CentralArea div.dynpg table.pgbc .r{display:none;}
+	td#CentralArea div.dynpg{padding:0;margin-top:15px;}
+	.dynpg table.pager{padding-top:10px;}
+	.dynpg .prev a.disabled{display:none;}
+	td#CentralArea div.dynpg .pages{text-align:center;}
+	td#CentralArea div.dynpg .pages a,td#CentralArea div.dynpg .prev a,td#CentralArea div.dynpg .next a{float:none;display:inline-block;margin:5px;padding:0 9px;}
+	.bpmsg span.lnk{float:none;}
+	td#CentralArea .rs-pview,td#CentralArea .grid td.gallery{margin:0;}
+	td#CentralArea table.gallery *{float:none;}
+}
